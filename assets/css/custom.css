@@ -1,0 +1,19 @@
+.department-learn-more {
+  text-align: center; 
+}
+
+.learn-more {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 12px 30px;
+  background-color: #74b9d6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.learn-more:hover {
+  transform: scale(1.1);
+  background-color: #add1e0;
+}
