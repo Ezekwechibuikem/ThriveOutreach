@@ -20,9 +20,6 @@ The website includes:
 - **CSS3**
 - **Bootstrap 5.3.3**
 - **Font Awesome / Bootstrap Icons**
-- **Glightbox.js** (for gallery and video modals)
-- **Isotope.js** (for dynamic gallery filtering)
-- **AOS.js** (scroll animations)
 
 ## 🔍 Features
 
