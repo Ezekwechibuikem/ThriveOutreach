@@ -53,3 +53,58 @@
 .info-card::after {
   pointer-events: none;
 }
+
+/* upcoming events css */
+#event-details {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+/* .event-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.event-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+} */
+
+.event-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event-meta {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.event-meta li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.event-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
