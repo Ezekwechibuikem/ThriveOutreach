@@ -1,0 +1,350 @@
+/* THRIVERIGHT events page styles */
+.events-page {
+  --events-navy: #173477;
+  --events-blue: #087fce;
+  --events-teal: #05a3bd;
+  --events-pale: #eef7fc;
+  --events-text: #24364b;
+  color: var(--events-text);
+}
+
+.events-hero {
+  padding: 145px 0 34px;
+  margin-top: 0;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(38, 143, 224, .12), transparent 32%),
+    linear-gradient(120deg, #f1f8fd 0%, #ffffff 55%, #e9f5fc 100%);
+}
+
+.events-eyebrow {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--events-blue);
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .13em;
+}
+
+
+/* Events page title: match the other inner pages */
+.events-page .page-title {
+  padding: 110px 0 35px;
+  text-align: center;
+  background: transparent;
+}
+
+.events-page .page-title .breadcrumbs {
+  margin-bottom: 24px;
+}
+
+.events-page .page-title .breadcrumb {
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.events-page .page-title .title-wrapper h1 {
+  margin-bottom: 12px;
+  color: var(--heading-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.events-page .page-title .title-wrapper p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .events-page .page-title {
+    padding: 100px 0 30px;
+  }
+
+  .events-page .page-title .title-wrapper h1 {
+    font-size: 2rem;
+  }
+
+  .events-page .page-title .title-wrapper p {
+    padding: 0 15px;
+  }
+}
+
+
+.events-section {
+  padding: 42px 0 50px;
+}
+
+.previous-events-section {
+  padding-top: 38px;
+  background: linear-gradient(180deg, #f5faff 0%, #fff 100%);
+  border-top: 1px solid #e3edf6;
+}
+
+.events-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.events-heading-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 54px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  color: var(--events-blue);
+  background: #e2f2ff;
+  font-size: 1.35rem;
+}
+
+.events-section-heading h2 {
+  margin: 0 0 5px;
+  color: var(--events-navy);
+  font-size: clamp(1.35rem, 2.2vw, 1.8rem);
+  font-weight: 800;
+}
+
+.events-section-heading p {
+  margin: 0;
+  color: #627187;
+}
+
+.event-feature-card {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  align-items: stretch;
+  overflow: hidden;
+  border: 1px solid #e6edf4;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 12px 34px rgba(20, 55, 100, .09);
+}
+
+.event-feature-image {
+  position: relative;
+  min-height: 100%;
+  background: #eaf4fb;
+  overflow: hidden;
+}
+
+.event-feature-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 390px;
+  object-fit: cover;
+}
+
+.image-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding: 12px;
+  color: #fff;
+  font-weight: 700;
+  background: linear-gradient(transparent, rgba(13, 43, 93, .88));
+}
+
+.event-feature-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: clamp(22px, 3vw, 38px);
+}
+
+.event-status {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 6px 12px;
+  margin-bottom: 12px;
+  font-size: .78rem;
+  font-weight: 700;
+}
+
+.status-featured {
+  color: #075da6;
+  background: #e2f3ff;
+}
+
+.status-completed {
+  color: #4b5563;
+  background: #edf0f3;
+}
+
+.event-feature-content h3 {
+  color: var(--events-navy);
+  font-size: clamp(1.35rem, 2.2vw, 1.8rem);
+  font-weight: 800;
+  line-height: 1.25;
+  margin: 0 0 14px;
+}
+
+.event-feature-content p {
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.event-intro {
+  font-weight: 500;
+}
+
+.event-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+  width: 100%;
+  margin: 12px 0 20px;
+  padding-top: 14px;
+  border-top: 1px solid #e9eef4;
+}
+
+.event-meta-grid > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+}
+
+.event-meta-grid i {
+  color: var(--events-blue);
+  font-size: 1.15rem;
+  margin-top: 2px;
+}
+
+.event-meta-grid span {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.event-meta-grid strong {
+  font-size: .82rem;
+  color: var(--events-navy);
+}
+
+.event-meta-grid small {
+  color: #64748b;
+  font-size: .82rem;
+  line-height: 1.45;
+}
+
+.event-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+.event-actions .btn {
+  border-radius: 8px;
+  padding: 11px 17px;
+  font-weight: 700;
+}
+
+.event-actions .btn-primary {
+  background: var(--events-blue);
+  border-color: var(--events-blue);
+}
+
+.event-actions .btn-primary:hover {
+  background: var(--events-navy);
+  border-color: var(--events-navy);
+}
+
+.event-actions .btn-outline-primary {
+  color: var(--events-blue);
+  border-color: #a9d7f7;
+}
+
+.event-note {
+  color: #718096;
+  font-size: .82rem;
+  margin: 14px 0 0 !important;
+}
+
+.previous-event-card {
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  margin-bottom: 22px;
+}
+
+.previous-event-image img {
+  min-height: 330px;
+}
+
+.previous-event-card .event-feature-content {
+  padding: clamp(22px, 2.7vw, 34px);
+}
+
+.previous-event-card .event-feature-content h3 {
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+}
+
+.previous-meta {
+  margin-top: 4px;
+}
+
+@media (max-width: 991.98px) {
+  .event-feature-card,
+  .previous-event-card {
+    grid-template-columns: 1fr;
+  }
+
+  .event-feature-image img,
+  .previous-event-image img {
+    height: auto;
+    min-height: 0;
+    max-height: 480px;
+  }
+
+  .event-feature-content {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .events-hero {
+    padding-top: 125px;
+  }
+
+  .events-section {
+    padding: 30px 0;
+  }
+
+  .events-section-heading {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .events-heading-icon {
+    flex-basis: 44px;
+    width: 44px;
+    height: 44px;
+  }
+
+  .event-meta-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .event-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .event-actions .btn {
+    width: 100%;
+  }
+
+  .image-caption {
+    gap: 10px;
+    font-size: .82rem;
+  }
+}
