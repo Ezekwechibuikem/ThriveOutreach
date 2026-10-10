@@ -108,3 +108,446 @@
   height: 100%;
   object-fit: cover;
 }
+
+
+/* =========================================
+   THRIVERIGHT FOOTER
+========================================= */
+
+#footer.footer {
+  background: #f5f9fc;
+  color: #496268;
+  padding: 60px 0 25px;
+  border-top: 1px solid #e4edf2;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  padding-bottom: 30px;
+}
+
+#footer .sitename {
+  color: #18444c;
+  font-size: 27px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+#footer .footer-description {
+  max-width: 360px;
+  line-height: 1.8;
+  color: #61777d;
+}
+
+#footer .footer-contact p {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+#footer .footer-contact i {
+  color: #449cbe;
+  font-size: 17px;
+  margin-top: 2px;
+}
+
+#footer a {
+  transition: color 0.25s ease, background-color 0.25s ease;
+}
+
+#footer .footer-contact a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#footer .footer-contact a:hover {
+  color: #449cbe;
+}
+
+#footer .footer-links h4 {
+  color: #18444c;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 22px;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-links h4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 35px;
+  height: 3px;
+  background: #449cbe;
+  border-radius: 3px;
+}
+
+#footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-links ul li {
+  padding: 0;
+  margin-bottom: 13px;
+}
+
+#footer .footer-links ul a {
+  color: #61777d;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#footer .footer-links ul a:hover {
+  color: #449cbe;
+  transform: translateX(3px);
+}
+
+/* Social media icons */
+#footer .social-links {
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#footer .social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #d7e6ec;
+  border-radius: 50%;
+  color: #18444c;
+  background: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#footer .social-links a:hover {
+  background: #449cbe;
+  color: #ffffff;
+  border-color: #449cbe;
+  transform: translateY(-3px);
+}
+
+/* Copyright */
+#footer .copyright {
+  border-top: 1px solid #dfe9ed;
+  padding-top: 25px;
+  color: #61777d;
+}
+
+#footer .copyright p {
+  margin-bottom: 8px;
+}
+
+#footer .copyright .sitename {
+  font-size: inherit;
+  font-weight: 700;
+  color: #18444c;
+}
+
+#footer .credits {
+  font-size: 13px;
+}
+
+#footer .credits a {
+  color: #449cbe;
+  text-decoration: none;
+}
+
+#footer .credits a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  #footer.footer {
+    padding-top: 45px;
+  }
+
+  #footer .footer-links h4 {
+    margin-bottom: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  #footer.footer {
+    padding: 40px 0 20px;
+  }
+
+  #footer .sitename {
+    font-size: 24px;
+  }
+
+  #footer .footer-about,
+  #footer .footer-links {
+    margin-bottom: 10px;
+  }
+
+  #footer .copyright {
+    margin-top: 20px !important;
+  }
+}
+
+
+/* Community Engagement Gallery */
+.community-gallery {
+  padding: 50px 0 70px;
+}
+
+.community-gallery .section-title {
+  margin-bottom: 35px;
+}
+
+.community-gallery .section-title h2 {
+  color: #18444c;
+  font-weight: 700;
+}
+
+.community-gallery .section-title p {
+  color: #61777d;
+}
+
+.community-gallery .community-photo {
+  display: block;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #eef5f7;
+  box-shadow: 0 5px 20px rgba(24, 68, 76, 0.08);
+}
+
+.community-gallery .community-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.community-gallery .community-photo:hover img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 767px) {
+  .community-gallery .community-photo {
+    height: 240px;
+  }
+}
+
+
+
+/* =========================================
+   THRIVERIGHT PROFESSIONAL TEAM PAGE
+========================================= */
+
+.team-section {
+  padding-top: 25px;
+  padding-bottom: 80px;
+}
+
+.team-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid rgba(24, 68, 76, 0.10);
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(24, 68, 76, 0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 38px rgba(24, 68, 76, 0.13);
+}
+
+.team-card-image {
+  position: relative;
+  height: 340px;
+  overflow: hidden;
+  background: #eef6f7;
+}
+
+.team-card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  transition: transform 0.5s ease;
+}
+
+.team-card:hover .team-card-image img {
+  transform: scale(1.035);
+}
+
+.team-image-label {
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+  padding: 7px 13px;
+  color: #fff;
+  background: rgba(24, 68, 76, 0.88);
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.team-card-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 28px;
+}
+
+.team-eyebrow {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #049ebb;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.team-card-content h2 {
+  margin: 0 0 10px;
+  color: #18444c;
+  font-family: var(--heading-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.team-role {
+  margin-bottom: 18px;
+  color: #049ebb;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+.team-summary {
+  margin-bottom: 25px;
+  color: #5c6870;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.team-card-footer {
+  margin-top: auto;
+  padding-top: 5px;
+}
+
+.team-profile-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 20px;
+  color: #fff;
+  background: #049ebb;
+  border: 1px solid #049ebb;
+  border-radius: 7px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.team-profile-btn:hover {
+  color: #fff;
+  background: #18444c;
+  border-color: #18444c;
+}
+
+.team-profile-btn:focus-visible {
+  outline: 3px solid rgba(4, 158, 187, 0.35);
+  outline-offset: 3px;
+}
+
+/* Full biography popup */
+
+.team-profile-modal .modal-content {
+  overflow: hidden;
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
+}
+
+.team-profile-modal .modal-header {
+  align-items: flex-start;
+  padding: 26px 30px 20px;
+  border-bottom: 1px solid #e8eff0;
+}
+
+.team-profile-modal .modal-title {
+  color: #18444c;
+  font-family: var(--heading-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.team-profile-modal .modal-body {
+  padding: 25px 30px;
+}
+
+.team-profile-modal .modal-body p:not(.team-role) {
+  color: #56636b;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.team-profile-modal .modal-footer {
+  padding: 15px 30px 25px;
+  border-top: 1px solid #e8eff0;
+}
+
+/* Mobile layout */
+
+@media (max-width: 767px) {
+  .team-section {
+    padding-top: 10px;
+    padding-bottom: 55px;
+  }
+
+  .team-card-image {
+    height: 300px;
+  }
+
+  .team-card-content {
+    padding: 23px;
+  }
+
+  .team-card-content h2 {
+    font-size: 22px;
+  }
+
+  .team-profile-modal .modal-header,
+  .team-profile-modal .modal-body {
+    padding: 20px;
+  }
+
+  .team-profile-modal .modal-title {
+    font-size: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .team-card,
+  .team-card-image img,
+  .team-profile-btn {
+    transition: none;
+  }
+}

@@ -31,6 +31,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
 
 </head>
 
@@ -69,321 +70,417 @@
   </header>
 
   <main class="main">
-
-    <!-- Page Title -->
+    <!-- Team Page Title -->
     <div class="page-title">
       <div class="breadcrumbs">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html"><i class="bi bi-house"></i> Home</a></li>
-            <!-- <li class="breadcrumb-item"><a href="#">Category</a></li> -->
-            <li class="breadcrumb-item active current">Doctors</li>
+            <li class="breadcrumb-item">
+              <a href="index.html">
+                <i class="bi bi-house"></i> Home
+              </a>
+            </li>
+            <li class="breadcrumb-item active current"
+                aria-current="page">Team</li>
           </ol>
         </nav>
       </div>
 
       <div class="title-wrapper">
-        <h1>Doctors</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
-          pulvinar dapibus leo.</p>
+        <h1>Meet Our Team</h1>
+        <p>
+          Meet the healthcare professionals and advocates working to
+          promote sickle cell awareness, health education, and stronger
+          communities.
+        </p>
       </div>
-    </div><!-- End Page Title -->
+    </div>
 
-    <!-- Doctors Section -->
-    <section id="doctors" class="doctors section">
+    <!-- Team Section -->
+    <section id="doctors" class="doctors section team-section">
+      <div class="container" data-aos="fade-up">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
 
-        <div class="row gy-4">
+          <!-- Dr. Beckley Emmanuel -->
+          <div class="col-lg-5 col-md-6"
+              data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="doctor-card">
-              <div class="doctor-image">
-                <img src="assets/img/health/staff-3.webp" alt="Dr. Jennifer Martinez" class="img-fluid">
-                <div class="doctor-overlay">
-                  <div class="doctor-social">
-                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-envelope"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="doctor-content">
-                <h4 class="doctor-name">Dr. Jennifer Martinez</h4>
-                <span class="doctor-specialty">Chief of Cardiology</span>
-                <p class="doctor-bio">Mauris blandit aliquet elit eget tincidunt nibh pulvinar a. Curabitur arcu erat
-                  accumsan id imperdiet et porttitor at.</p>
-                <div class="doctor-experience">
-                  <span class="experience-badge">15+ Years Experience</span>
-                </div>
-                <a href="appointment.html" class="btn-appointment">Book Appointment</a>
-              </div>
-            </div>
-          </div><!-- End Doctor Card -->
+            <article class="team-card">
 
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="doctor-card">
-              <div class="doctor-image">
-                <img src="assets/img/health/staff-7.webp" alt="Dr. Michael Chen" class="img-fluid">
-                <div class="doctor-overlay">
-                  <div class="doctor-social">
-                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-envelope"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="doctor-content">
-                <h4 class="doctor-name">Dr. Michael Chen</h4>
-                <span class="doctor-specialty">Orthopedic Surgeon</span>
-                <p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Nulla quis
-                  lorem ut libero malesuada feugiat.</p>
-                <div class="doctor-experience">
-                  <span class="experience-badge">12+ Years Experience</span>
-                </div>
-                <a href="appointment.html" class="btn-appointment">Book Appointment</a>
-              </div>
-            </div>
-          </div><!-- End Doctor Card -->
+              <div class="team-card-image">
+                <!-- Replace with Dr. Beckley's actual image -->
+                <img
+                  src="assets/img/person/doc 1.jpeg"
+                  alt="Dr. Beckley Emmanuel"
+                  loading="lazy">
 
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="doctor-card">
-              <div class="doctor-image">
-                <img src="assets/img/health/staff-11.webp" alt="Dr. Sarah Williams" class="img-fluid">
-                <div class="doctor-overlay">
-                  <div class="doctor-social">
-                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-envelope"></i></a>
-                  </div>
-                </div>
+                <span class="team-image-label">
+                  Health Advocate
+                </span>
               </div>
-              <div class="doctor-content">
-                <h4 class="doctor-name">Dr. Sarah Williams</h4>
-                <span class="doctor-specialty">Pediatric Specialist</span>
-                <p class="doctor-bio">Donec rutrum congue leo eget malesuada. Sed porttitor lectus nibh. Curabitur non
-                  nulla sit amet nisl tempus convallis.</p>
-                <div class="doctor-experience">
-                  <span class="experience-badge">18+ Years Experience</span>
-                </div>
-                <a href="appointment.html" class="btn-appointment">Book Appointment</a>
-              </div>
-            </div>
-          </div><!-- End Doctor Card -->
 
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="doctor-card">
-              <div class="doctor-image">
-                <img src="assets/img/health/staff-14.webp" alt="Dr. Robert Anderson" class="img-fluid">
-                <div class="doctor-overlay">
-                  <div class="doctor-social">
-                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-envelope"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="doctor-content">
-                <h4 class="doctor-name">Dr. Robert Anderson</h4>
-                <span class="doctor-specialty">Neurologist</span>
-                <p class="doctor-bio">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Mauris
-                  blandit aliquet elit eget tincidunt.</p>
-                <div class="doctor-experience">
-                  <span class="experience-badge">20+ Years Experience</span>
-                </div>
-                <a href="appointment.html" class="btn-appointment">Book Appointment</a>
-              </div>
-            </div>
-          </div><!-- End Doctor Card -->
+              <div class="team-card-content">
+                <span class="team-eyebrow">MEDICAL &amp; ADVOCACY</span>
 
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="doctor-card">
-              <div class="doctor-image">
-                <img src="assets/img/health/staff-5.webp" alt="Dr. Lisa Thompson" class="img-fluid">
-                <div class="doctor-overlay">
-                  <div class="doctor-social">
-                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-envelope"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="doctor-content">
-                <h4 class="doctor-name">Dr. Lisa Thompson</h4>
-                <span class="doctor-specialty">Emergency Medicine</span>
-                <p class="doctor-bio">Vivamus magna justo lacinia eget consectetur sed convallis at tellus. Quisque
-                  velit nisi pretium ut lacinia in elementum.</p>
-                <div class="doctor-experience">
-                  <span class="experience-badge">14+ Years Experience</span>
-                </div>
-                <a href="appointment.html" class="btn-appointment">Book Appointment</a>
-              </div>
-            </div>
-          </div><!-- End Doctor Card -->
+                <h2>Dr. Beckley Emmanuel</h2>
 
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="doctor-card">
-              <div class="doctor-image">
-                <img src="assets/img/health/staff-9.webp" alt="Dr. David Rodriguez" class="img-fluid">
-                <div class="doctor-overlay">
-                  <div class="doctor-social">
-                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-envelope"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="doctor-content">
-                <h4 class="doctor-name">Dr. David Rodriguez</h4>
-                <span class="doctor-specialty">Dermatologist</span>
-                <p class="doctor-bio">Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet
-                  consectetur adipiscing elit pellentesque habitant.</p>
-                <div class="doctor-experience">
-                  <span class="experience-badge">16+ Years Experience</span>
-                </div>
-                <a href="appointment.html" class="btn-appointment">Book Appointment</a>
-              </div>
-            </div>
-          </div><!-- End Doctor Card -->
+                <p class="team-role">
+                  Medical Doctor | Sickle Cell Warrior | Advocate |
+                  Health Educator
+                </p>
 
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="doctor-card">
-              <div class="doctor-image">
-                <img src="assets/img/health/staff-2.webp" alt="Dr. Amanda Clark" class="img-fluid">
-                <div class="doctor-overlay">
-                  <div class="doctor-social">
-                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-envelope"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="doctor-content">
-                <h4 class="doctor-name">Dr. Amanda Clark</h4>
-                <span class="doctor-specialty">Oncologist</span>
-                <p class="doctor-bio">Sed porttitor lectus nibh. Curabitur aliquet quam id dui posuere blandit proin
-                  eget tortor risus pellentesque habitant.</p>
-                <div class="doctor-experience">
-                  <span class="experience-badge">22+ Years Experience</span>
-                </div>
-                <a href="appointment.html" class="btn-appointment">Book Appointment</a>
-              </div>
-            </div>
-          </div><!-- End Doctor Card -->
+                <p class="team-summary">
+                  A medical doctor and sickle cell warrior with over
+                  five years of professional experience in clinical
+                  care, health education, and advocacy. He combines
+                  medical expertise with lived experience to promote
+                  awareness, empowerment, and better support for
+                  people living with sickle cell disease.
+                </p>
 
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="doctor-card">
-              <div class="doctor-image">
-                <img src="assets/img/health/staff-12.webp" alt="Dr. James Wilson" class="img-fluid">
-                <div class="doctor-overlay">
-                  <div class="doctor-social">
-                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="bi bi-envelope"></i></a>
-                  </div>
+                <div class="team-card-footer">
+                  <button
+                    type="button"
+                    class="team-profile-btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#beckleyProfile">
+                    Read Full Profile
+                    <i class="bi bi-arrow-up-right"></i>
+                  </button>
                 </div>
               </div>
-              <div class="doctor-content">
-                <h4 class="doctor-name">Dr. James Wilson</h4>
-                <span class="doctor-specialty">General Surgery</span>
-                <p class="doctor-bio">Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit eget tincidunt
-                  nibh pulvinar a curabitur arcu erat accumsan.</p>
-                <div class="doctor-experience">
-                  <span class="experience-badge">19+ Years Experience</span>
-                </div>
-                <a href="appointment.html" class="btn-appointment">Book Appointment</a>
+            </article>
+          </div>
+
+          <!-- Dr. Uchechukwu Alfred Ifedigbo -->
+          <div class="col-lg-5 col-md-6"
+              data-aos="fade-up" data-aos-delay="200">
+
+            <article class="team-card">
+
+              <div class="team-card-image">
+                <!-- Replace with Dr. Ifedigbo's actual image -->
+                <img
+                  src="assets/img/person/doc 2.jpeg"
+                  alt="Dr. Uchechukwu Alfred Ifedigbo"
+                  loading="lazy">
+
+                <span class="team-image-label">
+                  Public Health
+                </span>
               </div>
-            </div>
-          </div><!-- End Doctor Card -->
+
+              <div class="team-card-content">
+                <span class="team-eyebrow">PUBLIC HEALTH &amp; INNOVATION</span>
+
+                <h2>Dr. Uchechukwu Alfred Ifedigbo</h2>
+
+                <p class="team-role">
+                  MBBS, MBA | Public Health Specialist |
+                  HIV/TB Project Lead | Digital Health Advocate
+                </p>
+
+                <p class="team-summary">
+                  A public health professional with over seven years
+                  of experience in clinical services, HIV/TB programmes,
+                  and strategic programme management. He champions
+                  preventive healthcare and the use of digital health
+                  technologies, including AI, to improve health outcomes.
+                </p>
+
+                <div class="team-card-footer">
+                  <button
+                    type="button"
+                    class="team-profile-btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#ifedigboProfile">
+                    Read Full Profile
+                    <i class="bi bi-arrow-up-right"></i>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
 
         </div>
-
       </div>
+    </section>
 
-    </section><!-- /Doctors Section -->
+    <!-- Dr. Beckley Emmanuel: Full Profile Modal -->
+    <div class="modal fade team-profile-modal"
+        id="beckleyProfile"
+        tabindex="-1"
+        aria-labelledby="beckleyProfileLabel"
+        aria-hidden="true">
+
+      <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <div>
+              <span class="team-eyebrow">MEDICAL &amp; ADVOCACY</span>
+              <h2 class="modal-title" id="beckleyProfileLabel">
+                Dr. Beckley Emmanuel
+              </h2>
+            </div>
+
+            <button type="button" class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+            <p class="team-role">
+              Medical Doctor | Sickle Cell Warrior | Advocate |
+              Health Educator
+            </p>
+
+            <p>
+              Dr. Beckley Emmanuel is a passionate medical doctor,
+              health advocate, and a proud Sickle Cell Warrior with
+              over five years of professional experience in clinical
+              care, health education, and advocacy. Living with
+              Sickle Cell Disease himself, Dr. Emmanuel combines his
+              medical expertise and personal journey to champion
+              awareness, education, and empowerment for individuals
+              living with Sickle Cell Disease.
+            </p>
+
+            <p>
+              Throughout his career, he has worked closely with various
+              Sickle Cell foundations and organizations, leading
+              initiatives that focus on sensitization, early
+              intervention, and improving the quality of life for
+              warriors across communities. His unique perspective as
+              both a healthcare professional and a person living with
+              Sickle Cell Disease positions him as a powerful voice
+              in bridging the gap between clinical knowledge and
+              real-life experiences.
+            </p>
+
+            <p>
+              Dr. Emmanuel is deeply committed to mentoring young
+              people, inspiring hope, and equipping students with the
+              right information and strategies to navigate life with
+              Sickle Cell Disease. Through his advocacy, he continues
+              to foster greater understanding, reduce stigma, and
+              promote a supportive environment for all Sickle Cell
+              Warriors.
+            </p>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="team-profile-btn"
+                    data-bs-dismiss="modal">
+              Close Profile
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Dr. Uchechukwu Alfred Ifedigbo: Full Profile Modal -->
+    <div class="modal fade team-profile-modal"
+        id="ifedigboProfile"
+        tabindex="-1"
+        aria-labelledby="ifedigboProfileLabel"
+        aria-hidden="true">
+
+      <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <div>
+              <span class="team-eyebrow">PUBLIC HEALTH &amp; INNOVATION</span>
+              <h2 class="modal-title" id="ifedigboProfileLabel">
+                Dr. Uchechukwu Alfred Ifedigbo
+              </h2>
+            </div>
+
+            <button type="button" class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+            <p class="team-role">
+              MBBS, MBA | Public Health Specialist |
+              HIV/TB Project Lead | Digital Health Advocate
+            </p>
+
+            <p>
+              Dr. Uchechukwu Alfred Ifedigbo is a seasoned public
+              health professional with over seven years of experience
+              leading and delivering impactful clinical and strategic
+              initiatives within HIV/TB programmes. His career spans
+              both frontline clinical service and high-level programme
+              management, where he has driven measurable improvements
+              in patient outcomes and system efficiency.
+            </p>
+
+            <p>
+              Driven by a passion for helping people live longer,
+              healthier lives, Dr. Ifedigbo champions preventative
+              health strategies that integrate clinical expertise
+              with cutting-edge digital health technologies,
+              particularly those powered by AI. His solution-driven
+              mindset and results-oriented approach have earned
+              recognition for innovative problem-solving and scalable
+              interventions in resource-limited settings.
+            </p>
+
+            <p>
+              With a solid academic foundation in medicine (MBBS)
+              and business administration (MBA), he brings a unique
+              perspective that combines clinical acumen with strategic
+              leadership, making him a transformative force in the
+              future of global health.
+            </p>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="team-profile-btn"
+                    data-bs-dismiss="modal">
+              Close Profile
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
 
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
-
     <div class="container footer-top">
-      <div class="row gy-4">
+      <div class="row gy-5">
+
+        <!-- Organization Information -->
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
             <span class="sitename">THRIVERIGHT</span>
           </a>
-          <div class="footer-contact pt-3">
-            <p>FCT Abuja Nigeria.</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+234 806 6638 357</span></p>
-            <p><strong>Email:</strong> <span>Chidimmaaniekwe.thin@gmail.com</span></p>
+
+          <p class="footer-description mt-3">
+            Promoting health awareness, empowering communities, and building
+            a healthier future through education, advocacy, and support.
+          </p>
+
+          <div class="footer-contact pt-2">
+            <p><i class="bi bi-geo-alt"></i> FCT Abuja, Nigeria</p>
+            <p>
+              <i class="bi bi-telephone"></i>
+              <a href="tel:+2348066638357">+234 806 6638 357</a>
+            </p>
+            <p>
+              <i class="bi bi-envelope"></i>
+              <a href="mailto:info@thfnigeria.org">info@thfnigeria.org</a>
+            </p>
           </div>
+
           <div class="social-links d-flex mt-4">
-            <a href="https://x.com/t_h_foundation?s=21&t=eeBwLjrZSU6aEoFgfJ4cXQ"><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/thriveright_health_foundation?igsh=MTBxejZlZ2xia2lxMg=="><i
-                class="bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/thriveright-health-foundation-6344b1312/"><i
-                class="bi bi-linkedin"></i></a>
-            <a href="https://chat.whatsapp.com/HboTADReGEw24WRvO9m6YM"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://x.com/t_h_foundation?s=21&t=eeBwLjrZSU6aEoFgfJ4cXQ"
+              target="_blank" rel="noopener noreferrer" aria-label="X">
+              <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://www.facebook.com/"
+              target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/thriveright_health_foundation?igsh=MTBxejZlZ2xia2lxMg=="
+              target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/thriveright-health-foundation-6344b1312/"
+              target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://chat.whatsapp.com/HboTADReGEw24WRvO9m6YM"
+              target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+              <i class="bi bi-whatsapp"></i>
+            </a>
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Site Menu</h4>
+        <!-- Site Navigation -->
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Quick Links</h4>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="departments.html">Our Program</a></li>
-            <li><a href="gallery.html">Galley</a></li>
-            <li><a href="doctors.html">Team</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="departments.html">Our Programs</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="doctors.html">Our Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <!-- Programs -->
+        <div class="col-lg-2 col-md-6 footer-links">
           <h4>Our Programs</h4>
           <ul>
-            <li><a href="#">Community Awareness</a></li>
-            <li><a href="#">Support & Empowerment</a></li>
-            <li><a href="#">Media Awareness</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Capacity Building</a></li>
+            <li><a href="departments.html">Community Awareness</a></li>
+            <li><a href="departments.html">Support &amp; Empowerment</a></li>
+            <li><a href="departments.html">Media Awareness</a></li>
+            <li><a href="departments.html">Marketing</a></li>
+            <li><a href="departments.html">Capacity Building</a></li>
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <!-- Resources -->
+        <div class="col-lg-2 col-md-6 footer-links">
           <h4>Resources</h4>
           <ul>
-            <li><a href="#">Sickle Cell Education</a></li>
-            <li><a href="#">Genotype Awareness</a></li>
-            <li><a href="#">Health Tips</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Support Groups</a></li>
+            <li><a href="departments.html">Sickle Cell Education</a></li>
+            <li><a href="departments.html">Genotype Awareness</a></li>
+            <li><a href="events.html">Health Events</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="contact.html">Get Support</a></li>
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <!-- Get Involved -->
+        <div class="col-lg-2 col-md-6 footer-links">
           <h4>Get Involved</h4>
           <ul>
-            <li><a href="#">Volunteer</a></li>
-            <li><a href="#">Donate</a></li>
-            <li><a href="#">Partner With Us</a></li>
-            <li><a href="#">Attend Events</a></li>
-            <li><a href="#">Become an Advocate</a></li>
+            <li><a href="contact.html">Volunteer</a></li>
+            <li><a href="contact.html">Partner With Us</a></li>
+            <li><a href="upcoming.html">Attend Events</a></li>
+            <li><a href="contact.html">Become an Advocate</a></li>
+            <li><a href="contact.html">Contact Our Team</a></li>
           </ul>
         </div>
 
       </div>
     </div>
 
+    <!-- Copyright -->
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">THRIVERIGHT</strong> <span>All Rights Reserved</span>
+      <p>
+        &copy; <span id="footer-year"></span>
+        <strong class="px-1 sitename">THRIVERIGHT</strong>
+        <span>All Rights Reserved.</span>
       </p>
+
       <div class="credits">
-        Designed by <a href="https://ezekwechibuikem.github.io/Chibuikem_Portfolio/">Ezekwe Chibuikem</a>
+        Designed by
+        <a href="https://ezekwechibuikem.github.io/Chibuikem_Portfolio/"
+          target="_blank" rel="noopener noreferrer">
+          Ezekwe Chibuikem
+        </a>
       </div>
     </div>
-
   </footer>
+
+  <script>
+    document.getElementById("footer-year").textContent =
+      new Date().getFullYear();
+  </script>
+
+
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
